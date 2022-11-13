@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    
+}
+.caja_nav{
+    padding: 5px;
+}
+#photo_cara{
+    height: 60vh ;
+    width: 40vh ;
+    background-color: blue;
+    margin-left: 30%;
+}
+.imagen{
+    background-color: black;
+}
