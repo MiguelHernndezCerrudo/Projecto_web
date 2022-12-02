@@ -21,6 +21,81 @@ nav, a{
 .caja_nav{
     padding: 5px;
 }
+.contenido{
+    background-image: url('../img/matrix.jpg');
+    width: 100%;
+    height: 76vh;
+}
+.twt{
+    grid-area: twt;
+    border: solid 1px;
+}
+.fb{
+    grid-area: fb;
+    border: solid 1px;
+}
+.ins{
+    grid-area: ins;
+    border: solid 1px;
+}
+.pay{
+    grid-area: pay;
+    border: solid 1px;
+}
+.txt{
+    grid-area: txt;
+    border: solid 1px;
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    color: gray;
+    background-color: #353535;
+}
+.ciel:hover{
+    color: #00acee;
+}
+.azu:hover{
+    color: #4267B2;
+}
+.magen:hover{
+    color: #C13584;
+}
+.azu2:hover{
+    color: #3b7bbf;
+}
+.texto{
+    width: 100%;
+    height: 100%;
+    color: grey;
+    background-color: #353535;
+}
+.boton{
+   
+}
+.enviar{
+    width: 100%;
+    background-color: green;
+}
+
+.grid-box{
+    display: grid;
+    width: 70%;
+    height: 90%;
+    margin-left: 15%;
+    padding-top: 3%;
+    justify-self: center;  
+    grid-template-areas: 
+    'twt txt txt txt'
+    'fb txt txt txt'
+    'ins txt txt txt'
+    'pay txt txt txt';
+
+
+    
+
+}
 
 footer{
     display: flex;
@@ -31,8 +106,6 @@ footer{
     color: green;
     align-self: center;
     text-align: center;
-    margin-top: 23%;
-
 }
 
 footer, table{
