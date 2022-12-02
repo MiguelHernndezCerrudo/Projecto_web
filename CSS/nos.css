@@ -21,6 +21,33 @@ nav, a{
 .caja_nav{
     padding: 5px;
 }
+.presen{
+    background-image: url('../img/nos.jpg');
+    width: 100%;
+    height: 76vh;
+}
+.fondo{
+    
+    width: 70%;
+    height: 90%;
+    margin-left: 15%;
+    padding-top: 10%;
+    justify-self: center;
+}
+.contenido{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    padding-top: 22px;
+    padding-left: 10px;
+    justify-self: center;
+    background-color: black;
+    color: green;
+}
+
+.textaco{
+    padding-top: 32px;
+}
 
 footer{
     display: flex;
@@ -31,7 +58,6 @@ footer{
     color: green;
     align-self: center;
     text-align: center;
-    margin-top: 23%;
 
 }
 
